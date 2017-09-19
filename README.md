@@ -1,10 +1,8 @@
-BACKEND CRM FOR COMPLEX QUESTIONNAIRE APK GENERATION
-
-## About
-## Backend CRM for Custom complex questionnaire apk generation
+About
+## Backend CRM for custom complex questionnaire apk generation
 ### Creating the MySQL Database
 
-Create database "login" and create tables "members" and "loginAttempts" :
+Create database "login" and create tables "members", "questionoption"  and "loginattempts" :
 
 ```sql
 CREATE TABLE `questionoption` (

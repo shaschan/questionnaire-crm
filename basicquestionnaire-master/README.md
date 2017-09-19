@@ -1,5 +1,5 @@
-# basiccomplexquestionnaire
-A complex questionnaire/quiz app on android
+basic-complex-questionnaire-android
+#A custom complex questionnaire/quiz app on android
 
 ##Input questions
 Currently reads from a `json` file in the *assets* folder.
@@ -53,6 +53,8 @@ Currently string only.
 }
 ```
 ##Conjoint JSON file format
+*conjoint.json*
+```json
 [	
 	{
 		"Version": "1",
@@ -79,6 +81,7 @@ Currently string only.
 		"Item4": "Nokia"
 	}
 ]
-
+```
 ##Response format
-The responses are saved in a JSON mimicking the question format.```
+The responses are saved in a JSON mimicking the question format.
+-- Courtsey : Vivek Pradhan (https://github.com/vivek1729)
