@@ -1,1 +1,5 @@
 application/cache
+login/uploads
+nbproject/
+basicquestionnaire-master/app/src/main/assets
+basicquestionnaire-master/app/src/main/res/raw
