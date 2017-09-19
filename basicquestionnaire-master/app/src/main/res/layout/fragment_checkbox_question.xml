@@ -1,0 +1,46 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.vivekpradhan.basicquestionnaire.CheckboxQuestionFragment"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/questionText"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/hello_blank_fragment"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:transitionName="@string/vitamio_library_app_name" />
+
+    <LinearLayout
+        android:id="@+id/check_add_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questionText"
+        android:orientation="vertical"
+        android:layout_marginBottom="100dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/next"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:theme="@style/Theme.AppCompat" />
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
